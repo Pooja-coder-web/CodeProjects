@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.con-tainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-area{
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background-color: lightgreen;
+    border-radius: 50px;
+    height:30rem;
+    /* margin: 10%; */
+    position: relative;
+    width: 40rem;
+}
+
+.container h2{
+    font-size: 3em;
+    width: 40%;  
+    margin-bottom: 15px;
+}
+
+.container p{
+    font-size: 2em;
+    /* width: 100%; */
+    margin-bottom: 50px;
+}
+
+.btn{
+    padding: 0.7em 1.0em;
+    background-color: aliceblue;
+    border-radius: 40px;
+    font-size: 1.7em;
+    font-weight: 600;    
+}
+
+.btn-primary{
+    text-decoration: none;
+    color: #000;
+
+}
+
+#profile{
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+.profile-area h3{
+    font-size: 12px;
+}
+
+#profile img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20%;
+}
+
+
+.card{
+    width: 580px;
+    margin: 60px auto;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 25px;
+}
+.card h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 10px;    
+}
+.card p{
+    color: grey;
+    font-size: 1.6rem;
+    margin-bottom: 70px;
+}
+.card-img{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+    margin-bottom: 50px;
+}
+.card-img img{
+    height: 150px;
+    width: 150px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-radius: 50%;
+    
+}
+.card .des{
+    padding: 20px 20px 20px 20px;
+    color: blue;
+    
+}
+.footer{
+    border-top: 1px solid lightgray;
+    width: 100%;
+    object-fit: cover;
+}
